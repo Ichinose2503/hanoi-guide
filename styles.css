@@ -29,6 +29,7 @@ body {
 
 /* Header */
 header {
+    display: flex;
     height: 80px;
     background-color: #fff;
     position: fixed;
@@ -107,8 +108,7 @@ nav a::after {
     transition: width 0.3s;
 }
 
-nav a:hover::after, 
-nav a.active::after {
+nav a:hover::after, nav a.active::after {
     width: 100%;
 }
 
@@ -129,7 +129,7 @@ nav a.active::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/quoc-tu-giam.png') center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://cdn0702.cdn4s.com/media/quoc-tu-giam-2-9445.png') center/cover no-repeat;
     color: white;
     text-align: center;
     margin-top: 80px;
